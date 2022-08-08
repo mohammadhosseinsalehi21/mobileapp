@@ -19,6 +19,7 @@
         crossorigin="anonymous"></script>
 
     <style>
+        
         body {
             background-color: 4284f2;
         }
@@ -41,13 +42,31 @@
             text-align: left;
             font-family: estedad;
         }
+        
+        .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
 
+.button:hover {background-color: #3e8e41}
 
-        button {
-            color: rgb(255, 255, 255);
-            border-radius: 60px !important;
-            padding: 8px 25px !important;
-        }
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+       
+  
+
     </style>
 
 </head>
@@ -75,7 +94,7 @@
 
                     <div class="row mt-3">
                         <div class="col-12">
-                            <button type="button" class="btn btn-outline-dark">game</button>
+                            <button class="button">game</button>
                         </div>
                     </div>
 
